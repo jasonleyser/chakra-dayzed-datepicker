@@ -189,7 +189,7 @@ export const RangeDatepicker: React.FC<RangeDatepickerProps> = ({
     ? `${format(selectedDates[0], configs.dateFormat)}`
     : '';
   intVal += selectedDates[1]
-    ? ` - ${format(selectedDates[1], configs.dateFormat)}`
+    ? ` ---------- ${format(selectedDates[1], configs.dateFormat)}`
     : '';
 
   return (
